@@ -1491,7 +1491,7 @@ class PoseTracker:
             "RIGHT_FOOT_INDEX"
         ]
 
-    def initialize_detector(self, model_path='pose_landmarker_heavy.task'):
+    def initialize_detector(self, model_path='pose_landmarker_full.task'):
         """Initialize the MediaPipe pose landmark detector"""
         try:
             base_options = python.BaseOptions(model_asset_path=model_path)
